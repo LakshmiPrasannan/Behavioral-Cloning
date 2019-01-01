@@ -18,8 +18,8 @@ The goals / steps of this project are the following:
 [image3]: ./examples/leftside_image.jpg "Left Side Image"
 [image4]: ./examples/leftside_image_flip.jpg "Flipped Left Side Image "
 [image5]: ./examples/rightside_image.jpg "Right Side Image"
-[image6]: ./examples/rightside_image_flip "Flipped Right Side Image"
-[image7]: ./examples/cnn-architecture-624x890 "NVIDIA Network Architecture"
+[image6]: ./examples/rightside_image_flip.jpg "Flipped Right Side Image"
+[image7]: ./examples/cnn-architecture-624x890.jpg "NVIDIA Network Architecture"
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
 
@@ -48,7 +48,7 @@ The model.py file contains the code for training and saving the convolution neur
 
 #### 1. An appropriate model architecture has been employed
 
-My model is inspired from the [NVIDIA]{https://devblogs.nvidia.com/deep-learning-self-driving-cars/} network of a convolution neural network. 
+My model is inspired from the [NVIDIA](https://devblogs.nvidia.com/deep-learning-self-driving-cars/) network of a convolution neural network. 
 
 The network I have implemented uses 5 convolutional layers and 4 fully connected dense layers.(code line 79 to 95).
 The model includes RELU layers to introduce nonlinearity (code line 83,85,88 and 89), and the data is normalized in the model using a Keras lambda layer (code line 81). 
@@ -77,7 +77,7 @@ For details about how I created the training data, see the next section.
 
 The overall strategy for deriving a model architecture was to enable the car to complete ateast one lap run in the given Udacity's simulator track.
 
-My first step was to use a convolution neural network model similar to the [NVIDIA]{https://devblogs.nvidia.com/deep-learning-self-driving-cars/}. I thought this model might be appropriate because as discussed in the classroom, this model was implemented in a real car that ran considerable miles on the real roads till airport to and fro without touching the steering even once.
+My first step was to use a convolution neural network model similar to the [NVIDIA](https://devblogs.nvidia.com/deep-learning-self-driving-cars/). I thought this model might be appropriate because as discussed in the classroom, this model was implemented in a real car that ran considerable miles on the real roads till airport to and fro without touching the steering even once.
 
 In order to gauge how well the model was working, I split my image and steering angle data into a training and validation set. I found that my first model had a low mean squared error on the training set but a high mean squared error on the validation set. This implied that the model was overfitting. 
 
@@ -109,7 +109,7 @@ Since model was not training well on initial dataset, I augmented the data by fl
 Here are examples of flipped image
 For the centre image these are the examples of original and flippked image.
 #### Centre (Original and Flipped Image)
-![alt text][image1]![alt text][image2]
+![alt text][image1] ![alt text][image2]
 
 For the left side image these are the examples of original and flippked image.
 #### Left (Original and Flipped Image)
