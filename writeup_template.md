@@ -19,7 +19,7 @@ The goals / steps of this project are the following:
 [image4]: ./examples/leftside_image_flip.jpg "Flipped Left Side Image "
 [image5]: ./examples/rightside_image.jpg "Right Side Image"
 [image6]: ./examples/rightside_image_flip.jpg "Flipped Right Side Image"
-[image7]: ./examples/cnn-architecture-624x890.jpg "NVIDIA Network Architecture"
+[image7]: ./examples/cnn-architecture-624x890.png "NVIDIA Network Architecture"
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
 
